@@ -9,7 +9,7 @@ import colorSharp from "../../assets/img/color-sharp.png"
 const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
+      
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -33,34 +33,43 @@ const Skills = () => {
             <div className="col-12">
                 <div className="skill-bx wow zoomIn">
                     <h2>Skills</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                    <p>Proficient in a variety of programming languages, frameworks, and tools essential for modern software development. Dedicated to continuous learning and staying updated with the latest industry trends and technologies.</p>
                     <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                         <div className="item">
-                            <img src={meter1} alt="Image" />
-                            <h5>Web Development</h5>
+                            <img src={meter1} alt=" percentage of the skill" />
+                            <h5>Javascript</h5>
                         </div>
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter3} alt=" percentage of the skill" />
                             <h5>React.JS</h5>
                         </div>
                         <div className="item">
-                            <img src={meter3} alt="Image" />
+                            <img src={meter2} alt=" percentage of the skill" />
+                            <h5>Python</h5>
+                        </div>
+                        
+                        <div className="item">
+                            <img src={meter3} alt=" percentage of the skill" />
                             <h5>HTML5</h5>
                         </div>
                         <div className="item">
-                            <img src={meter1} alt="Image" />
+                            <img src={meter1} alt=" percentage of the skill" />
                             <h5>CSS3</h5>
                         </div>
                         <div className="item">
-                            <img src={meter1} alt="Image" />
+                            <img src={meter1} alt=" percentage of the skill" />
                             <h5>Node.js</h5>
+                        </div>
+                        <div className="item">
+                            <img src={meter1} alt=" percentage of the skill" />
+                            <h5>Bootstrap</h5>
                         </div>
                     </Carousel>
                 </div>
             </div>
         </div>
     </div>
-    <img className="background-image-left" src={colorSharp} alt="Image" />
+    <img className="background-image-left" src={colorSharp} alt="background " />
 </section>
   );
 };
