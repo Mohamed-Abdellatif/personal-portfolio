@@ -44,6 +44,10 @@ const Skills = () => {
                             <h5>React.JS</h5>
                         </div>
                         <div className="item">
+                            <img src={meter3} alt=" percentage of the skill" />
+                            <h5>Next.JS</h5>
+                        </div>
+                        <div className="item">
                             <img src={meter2} alt=" percentage of the skill" />
                             <h5>Python</h5>
                         </div>
