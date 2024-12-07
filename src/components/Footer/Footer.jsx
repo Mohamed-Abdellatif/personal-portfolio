@@ -17,7 +17,7 @@ const Footer = ()=> {
             <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
              {/* eslint-disable-next-line */}
-              <a href="https://www.facebook.com/mohamad.abdelateef" target="_blank">
+              <a href="https://www.linkedin.com/in/mohamed-abdellatif-6060371b0" target="_blank">
                 <img src={navIcon1} alt="linkedin logo" />
               </a>
               {/*  eslint-disable-next-line */}
